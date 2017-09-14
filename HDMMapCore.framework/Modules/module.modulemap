@@ -1,0 +1,10 @@
+framework module HDMMapCore {
+  umbrella header "HDMMapCore.h"
+
+  export *
+  module * { export * }
+}
+
+module HDMMapCore.Swift {
+    header "HDMMapCore-Swift.h"
+}
